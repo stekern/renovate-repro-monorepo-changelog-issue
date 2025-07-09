@@ -7,7 +7,7 @@
     {
       "customType": "regex",
       "fileMatch": [
-        "(^|/)package\\.yml$"
+        "(^|/)package-*\\.yml$"
       ],
       "matchStrings": [
         "Ref: (?<depName>.*?)-v(?<currentValue>\\d+\\.\\d+\\.\\d+)"
